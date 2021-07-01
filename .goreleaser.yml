@@ -70,6 +70,9 @@ signs:
       - "${artifact}"
     stdin_file: /tmp/.gpg_passphrase
 release:
+  github:
+    owner: gavinbunney
+    name: terraform-provider-restapi
   draft: false
 changelog:
   skip: true
